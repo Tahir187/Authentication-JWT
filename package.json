@@ -3,6 +3,8 @@
     "bcrypt": "^5.1.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
@@ -11,13 +13,21 @@
     "save": "^2.9.0"
   },
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon server.js"
   },
   "name": "aut",
   "version": "1.0.0",
   "main": "app.js",
   "keywords": [],
-  "author": "",
+  "author": "tahir",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tahir187/Authentication-JWT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tahir187/Authentication-JWT/issues"
+  },
+  "homepage": "https://github.com/Tahir187/Authentication-JWT#readme",
   "description": ""
 }
